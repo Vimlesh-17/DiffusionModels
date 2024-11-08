@@ -22,7 +22,8 @@ This repository contains a PyTorch implementation of Stable Diffusion, a state-o
 
    ```bash
    git clone https://github.com/Vimlesh-17/DiffusionModels.git
-   cd pytorch-stable-diffusion
+   cd DDPM-stramlit-pretrainedWeights/sd
+   cd 
    ```
 
 2. Install the required packages:
@@ -63,13 +64,10 @@ The app allows you to adjust several hyperparameters that influence the image ge
 Below are some examples illustrating the effects of different hyperparameter settings:
 
 - **Strength**: 
-  - ![Input Image](images/gojo.jpg) Input Image
-  - ![Low Strength](images/output2.png) Low Strength: More context retained with some distortions.
-  - ![High Strength](images/output1.png) High Strength: Better clarity but less context retained.
+  - ![Input Image](DiffusionModels/DDPM-streamlit-pretrainedWeights/images/gojo.jpg) Input Image
+  - ![Low Strength](DiffusionModels/DDPM-streamlit-pretrainedWeights/images/output2.png) Low Strength: More context retained with some distortions.
+  - ![High Strength](DiffusionModels/DDPM-streamlit-pretrainedWeights/images/output1.png) High Strength: Better clarity but less context retained.
 
-- **CFG Scale**:
-  - ![Low CFG Scale](images/low_cfg_scale.png) Low CFG Scale
-  - ![High CFG Scale](images/high_cfg_scale.png) High CFG Scale
 
 ## File Structure
 
