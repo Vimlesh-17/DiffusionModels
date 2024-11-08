@@ -23,7 +23,7 @@ This repository contains a PyTorch implementation of Stable Diffusion, a state-o
    ```bash
    git clone https://github.com/Vimlesh-17/DiffusionModels.git
    cd DDPM-stramlit-pretrainedWeights/sd
-   cd 
+
    ```
 
 2. Install the required packages:
@@ -71,6 +71,11 @@ Below are some examples illustrating the effects of different hyperparameter set
 ## FMNIST Dataset Usage
 
 This project also includes a Diffusion Model trained on the Fashion MNIST (FMNIST) dataset. The FMNIST dataset consists of 32x32 grayscale images of fashion items, which are used to train and evaluate the diffusion model. This implementation demonstrates the model's capability to handle grayscale image data and generate new fashion item images.
+
+To run the code, execute command:
+   '''bash
+   python run_grid_search.py
+   '''
 
 ### Training on FMNIST
 
