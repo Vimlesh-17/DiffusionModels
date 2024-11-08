@@ -68,6 +68,29 @@ Below are some examples illustrating the effects of different hyperparameter set
   - ![Low Strength](DDPM-streamlit-pretrainedWeights/images/output2.jpg) Low Strength: More context retained with some distortions.
   - ![High Strength](DDPM-streamlit-pretrainedWeights/images/output1.jpg) High Strength: Better clarity but less context retained.
 
+## FMNIST Dataset Usage
+
+This project also includes a Diffusion Model trained on the Fashion MNIST (FMNIST) dataset. The FMNIST dataset consists of 32x32 grayscale images of fashion items, which are used to train and evaluate the diffusion model. This implementation demonstrates the model's capability to handle grayscale image data and generate new fashion item images.
+
+### Training on FMNIST
+
+- **Dataset**: Fashion MNIST (FMNIST)
+- **Image Size**: 32x32 pixels
+- **Color Mode**: Grayscale
+
+The training process involves using a diffusion model to learn the distribution of the FMNIST dataset and generate new samples that resemble the original data.
+
+## Grid Search Results
+
+The grid search was conducted to optimize hyperparameters for the diffusion model. The results are saved in an HTML file for easy visualization and analysis.
+
+- **Grid Search Results**: [View Results](grid_search_results.html)
+
+### Example Image from Grid Search
+
+Below is an example image generated during the grid search process:
+
+- ![Example Image](img24.jpg)
 
 ## File Structure
 
