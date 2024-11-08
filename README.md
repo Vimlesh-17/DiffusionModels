@@ -21,7 +21,7 @@ This repository contains a PyTorch implementation of Stable Diffusion, a state-o
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/pytorch-stable-diffusion.git
+   git clone https://github.com/Vimlesh-17/DiffusionModels.git
    cd pytorch-stable-diffusion
    ```
 
