@@ -90,7 +90,7 @@ The grid search was conducted to optimize hyperparameters for the diffusion mode
 
 Below is an example image generated during the grid search process:
 
-- ![Example Image](img24.jpg)
+- ![Example Image](24.jpg)
 
 ## File Structure
 
