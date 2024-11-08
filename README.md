@@ -65,8 +65,8 @@ Below are some examples illustrating the effects of different hyperparameter set
 
 - **Strength**: 
   - ![Input Image](DDPM-streamlit-pretrainedWeights/images/gojo.jpg) Input Image
-  - ![Low Strength](DDPM-streamlit-pretrainedWeights/images/output2.png) Low Strength: More context retained with some distortions.
-  - ![High Strength](DDPM-streamlit-pretrainedWeights/images/output1.png) High Strength: Better clarity but less context retained.
+  - ![Low Strength](DDPM-streamlit-pretrainedWeights/images/output2.jpg) Low Strength: More context retained with some distortions.
+  - ![High Strength](DDPM-streamlit-pretrainedWeights/images/output1.jpg) High Strength: Better clarity but less context retained.
 
 
 ## File Structure
